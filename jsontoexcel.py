@@ -7,7 +7,7 @@ from datetime import datetime
 import os
 
 def load_data(kaydet_path):
-    with open(kaydet_path, "r") as f:
+    with open(kaydet_path, "r", encoding="utf-8") as f:
         ayarlar = json.load(f)
 
     # Veriler DataFrame'ini oluşturma
