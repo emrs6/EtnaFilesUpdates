@@ -32,4 +32,4 @@ if internet_connection:
     print(ikinci_deger)
 else:
     # İnternet bağlantısı yoksa 0 değerini veriyoruz
-    print("İnternet Bağlantısı Yok")
+    print("0")
