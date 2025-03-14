@@ -27,7 +27,7 @@ if internet_connection:
     # Bu örnekte tam olarak hangi sınıfı veya elementi seçmeniz gerektiğini bilemiyorum.
     # Bu nedenle genel bir yaklaşım sunuyorum.
     degerler = soup.find_all("span", class_="with-tax")
-    ikinci_deger = degerler[57].text
+    ikinci_deger = degerler[44].text
 
     print(ikinci_deger)
 else:
