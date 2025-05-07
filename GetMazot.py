@@ -1,3 +1,4 @@
+# version: 1.0.3
 import requests
 from bs4 import BeautifulSoup
 import re
